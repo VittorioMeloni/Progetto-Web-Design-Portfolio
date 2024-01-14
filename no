@@ -1,1 +1,2 @@
-
+git rm no
+git commit -m "remove no"
