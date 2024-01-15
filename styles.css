@@ -50,6 +50,14 @@ p {
 .logo{
     cursor: pointer;
 }
+div {
+  width:300px;
+  margin:auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 /* Elementi barra menu */
 .nav{
     list-style: none;
