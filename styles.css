@@ -70,10 +70,6 @@ p {
     transition: opacity 0.4s;
     opacity: 1;
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
 
 /*
 .nav-items a:hover .link-text {
