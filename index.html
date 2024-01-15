@@ -5,15 +5,8 @@
 	<link rel="icon" type="image/x-icon" href="favicon.png">	<!--Imposta l'icona della scheda-->
 	<meta charset="UTF-8">						<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
 	<title>Es 1 Online</title>					<!--Nome della scheda-->
-  	<!--<link rel="stylesheet" href="styles.css">			Indica il file .css esterno a cui si deve collegare-->
+  	<link rel="stylesheet" href="styles.css">			<!--Indica il file .css esterno a cui si deve collegare-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!--Impostazioni per la visualizzazione responsive-->
-	
-	<style>
-		<!--Con questo metto le parti css qui dentro il file html senza usare quello esterno-->
-		body 	{background-color: #1488CA;}
-		h1 	{color: navy;}
-		p	{color: white;}
-	</style>
 </head>
 <body>
 	<!--
@@ -27,31 +20,41 @@
 	    	<a href="#contact">Contattami</a>
 	</div>
 	
-	<img src="Immagini/Logo.png" alt="Logo" width="500">
+	<img src="main/Immagini/Logo.png" alt="Logo">
 	    	
+	<p>
+		<h1 id="home">Home</h1>  <!--Elemento di riferimento del bookmark. Quando clicco il bookmark del link dovrei essere portato qui-->
+  		<img src="https://via.placeholder.com/200x100">
+		<p>Testo home</p>
+	</p>
 
-	<h1 id="home">Home</h1>  <!--Elemento di riferimento del bookmark. Quando clicco il bookmark del link dovrei essere portato qui-->
-  	<img src="https://via.placeholder.com/200x100">
-	<p>Testo home</p>
-	<br>
+	<p>
+		<h1 id="chisono">Chi sono</h1>
+		<img src="main/Immagini/FotoMeTrasparente.png">
+		<p>Testo paragrafo</p>
+	</p>
 	
-	<h1 id="chisono">Chi sono</h1>
-	<img src="Immagini/FotoMeTrasparente.png">
-	<p>Testo paragrafo</p>
-	<br>
+	<p>
+		<h1 id="portfolio">Portfolio</h1>
+		<img src="https://via.placeholder.com/200x100">
+		<p>Testo paragrafo</p>
+	</p>
 	
-	<h1 id="portfolio">Portfolio</h1>
-	<img src="https://via.placeholder.com/200x100">
-	<p>Testo paragrafo</p>
-	<br>
-	
-	<h1 id="contact">Contattami</h1>
-	<img src="https://via.placeholder.com/200x100">
-	<p>Testo paragrafo</p>
-	<br>
+	<p>
+		<h1 id="contact">Contattami</h1>
+		<img src="https://via.placeholder.com/200x100">
+		<p>Testo paragrafo</p>
+	</p>
 	
 </body>
 </html>
+
+
+
+
+
+
+
 <!--
   <div class="container-fluid p-5 bg-primary text-white text-center">
     <h1>My First Bootstrap Page</h1>
