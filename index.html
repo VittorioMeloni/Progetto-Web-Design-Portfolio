@@ -1,41 +1,56 @@
 <!DOCTYPE html>
-<html lang="it">				<!--Indica la lingua testuale che è l'italiano-->
+<html lang="it">							<!--Indica la lingua testuale che è l'italiano-->
 
 <head>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-	<meta charset="UTF-8">			<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
-	<title>Es 1 Online</title>		<!--Nome della scheda-->
-  <link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png">	<!--Imposta l'icona della scheda-->
+	<meta charset="UTF-8">						<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
+	<title>Es 1 Online</title>					<!--Nome della scheda-->
+  	<!--<link rel="stylesheet" href="styles.css">			Indica il file .css esterno a cui si deve collegare-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!--Impostazioni per la visualizzazione responsive-->
+	
+	<style>
+		<!--Con questo metto le parti css qui dentro il file html senza usare quello esterno-->
+		body 	{background-color: #1488CA;}
+		h1 	{color: navy;}
+		p	{color: white;}
+	</style>
 </head>
 <body>
-  <!--
-    azzurro:#0BBBEF, azzurro scuro:#1488CA, blu chiaro:#0067B1, blu scuro:#0C4270
-  -->
-  <div style="background-color:#0BBBEF; width:200px; height:50px; margin: auto;">Test 1</div>
-	<div style="background-color:#0BBBEF;"> <!--Usa tutta la larghezza dello schermo-->
-    <img src="https://github.com/VittorioMeloni/Esercizio-HTML/blob/main/Immagini/Logo.png">
-    <a href="#home">Home</a>
-    <a href="#chisono">Chi sono</a> <!--Creo un bookmark che se viene cliccato mi scorre la pagina fino al relativo elemento-->
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contattami</a>
+	<!--
+	Colori Logo = azzurro:#0BBBEF / azzurro scuro:#1488CA / blu chiaro:#0067B1 / blu scuro:#0C4270
+	-->
+	
+	<div style="background-color:#0BBBEF;"> 			<!--Usa tutta la larghezza dello schermo-->
+		<a href="#home">Home</a>
+	    	<a href="#chisono">Chi sono</a> <!--Creo un bookmark che se viene cliccato mi scorre la pagina fino al relativo elemento-->
+	    	<a href="#portfolio">Portfolio</a>
+	    	<a href="#contact">Contattami</a>
 	</div>
-  <h1 id="home">Home</h1>  <!--Elemento di riferimento del bookmark. Quando clicco il bookmark del link dovrei essere portato qui-->
-  <img src="https://via.placeholder.com/200x100">
-  <p>Testo home</p>
-  <br>
-  <h1 id="chisono">Chi sono</h1>
-  <img src="https://via.placeholder.com/200x100">
-  <p>Testo paragrafo</p>
-  <br>
-  <h1 id="portfolio">Portfolio</h1>
-  <img src="https://via.placeholder.com/200x100">
-  <p>Testo paragrafo</p>
-  <br>
-  <h1 id="contact">Contattami</h1>
-  <img src="https://via.placeholder.com/200x100">
-  <p>Testo paragrafo</p>
-  <br>
-	</body>
+
+	<img src="https://github.com/VittorioMeloni/Esercizio-HTML/blob/main/Immagini/Logo.png">
+	    	
+
+	<h1 id="home">Home</h1>  <!--Elemento di riferimento del bookmark. Quando clicco il bookmark del link dovrei essere portato qui-->
+  	<img src="https://via.placeholder.com/200x100">
+	<p>Testo home</p>
+	<br>
+	
+	<h1 id="chisono">Chi sono</h1>
+	<img src="https://via.placeholder.com/200x100">
+	<p>Testo paragrafo</p>
+	<br>
+	
+	<h1 id="portfolio">Portfolio</h1>
+	<img src="https://via.placeholder.com/200x100">
+	<p>Testo paragrafo</p>
+	<br>
+	
+	<h1 id="contact">Contattami</h1>
+	<img src="https://via.placeholder.com/200x100">
+	<p>Testo paragrafo</p>
+	<br>
+	
+</body>
 </html>
 <!--
   <div class="container-fluid p-5 bg-primary text-white text-center">
