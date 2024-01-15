@@ -58,6 +58,10 @@ div {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100%;
+}
 /* Elementi barra menu */
 .nav{
     list-style: none;
