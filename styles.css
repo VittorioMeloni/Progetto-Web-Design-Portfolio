@@ -1,10 +1,15 @@
-
-
-.btn:hover{
-    padding: 10px 40px;
-}
 /* Colori Logo = azzurro:#0BBBEF / azzurro scuro:#1488CA / blu chiaro:#0067B1 / blu scuro:#0C4270 */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+.spacerinizio {
+  height: 120px;
+}
 *{
     margin: 0;
     padding: 0;
