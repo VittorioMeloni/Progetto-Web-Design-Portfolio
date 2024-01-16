@@ -1,5 +1,30 @@
+/* 
+COLORI
+azzurro:#0BBBEF
+azzurro scuro:#1488CA
+blu chiaro:#0067B1
+blu scuro:#0C4270 
+*/
+
 /* FONT */
 body {
     font-family: "Tahoma", sans-serif;
-  }
-  
+}
+
+/* CORPO */
+body {
+    background-color: #1488CA;
+}
+
+/* TITOLI */
+h1 {
+    color: #0C4270;
+    text-align: center;
+}
+
+/* PARAGRAFI */
+p {
+    color: #0C4270;
+    text-align: center;
+    font-size: 20px;
+}
