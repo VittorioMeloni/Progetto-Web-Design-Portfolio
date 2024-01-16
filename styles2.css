@@ -1,6 +1,6 @@
 /* 
 COLORI
-azzurro:#0BBBEF
+azzurro chiaro:#0BBBEF
 azzurro scuro:#1488CA
 blu chiaro:#0067B1
 blu scuro:#0C4270 
@@ -24,7 +24,7 @@ h1 {
 
 /* PARAGRAFI */
 p {
-    color: #0C4270;
+    color: #0BBBEF;
     text-align: center;
     font-size: 20px;
 }
