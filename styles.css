@@ -1,8 +1,8 @@
 /* 
-azzurro: #0BBBEF
-azzurro scuro: #1488CA
-blu chiaro: #0067B1
-blu scuro: #0C4270 
+azzurro:#0BBBEF
+azzurro scuro:#1488CA
+blu chiaro:#0067B1
+blu scuro:#0C4270 
 */
 /*Importo un font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
@@ -13,32 +13,34 @@ blu scuro: #0C4270
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
 }
-/*creo uno spazio dove sta la barra menu*/
+/*creo uno spazio dove sta la barra*/
 .spacerinizio {
   height: 120px;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
 /* Sfondo */
 body {
   background\-color: #1488CA;
 }
-
 /* Titoli paragrafi */
 h1 {
   color: navy;
 }
-
 /* Paragrafi */
 p {
-  color: white;
+  color: black;
 }
-
-/*Tabelle
+/*Tabelle*/
 .table {
   align-self: center;
   background-color: #0C4270;
-}*/
-
+}
 /* Barra menu */
 .barramenu{
     width: 100%;
