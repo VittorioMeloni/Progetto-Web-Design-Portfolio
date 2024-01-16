@@ -16,3 +16,22 @@
     display: flex;
     padding: 30px;
 }
+.nav-items{
+    padding: 10px;
+}
+.nav-items a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    z-index: 1;
+    text-decoration: none;
+    justify-content: center;
+}
+.nav-items a .link-text {
+    margin-left: 8px;
+    transition: opacity 0.4s;
+    opacity: 1;
+}
