@@ -1,15 +1,18 @@
 
+
 ul {
     list-style-type: none;
     margin: 1%;/*distanza tra barra e inzio pagina, si può fare in px o %*/
     padding: 1%;/*distanza tra contenuto e bordo barra, si può fare in px o %*/
     overflow: hidden;
-    height: 95px;
+    height: 95px;/*altezza barra menu*/
+    width: 100%;
     background-color: #0C4270;/*colore barra menu*/
   }
   
   li {
     float: left;
+    width: 75px;
     /*
     questo è l'orientamento
     left = da sinistra verso destra
