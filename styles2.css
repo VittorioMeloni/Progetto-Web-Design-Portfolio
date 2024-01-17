@@ -1,9 +1,10 @@
 article{
-  margin-left: 110px;
+  /*margin-left: 110px;*/
+  float: center;
   background-color: #0C4270;/*colore sfondo riquadri*/
   /*dimensioni*/
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 800px;
 }
 
 ul {
