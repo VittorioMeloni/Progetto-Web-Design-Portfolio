@@ -5,7 +5,6 @@ ul {
     padding: 1%;/*distanza tra contenuto e bordo barra, si può fare in px o %*/
     overflow: hidden;
     height: 95px;
-    width: 100%;
     background-color: #0C4270;/*colore barra menu*/
   }
   
