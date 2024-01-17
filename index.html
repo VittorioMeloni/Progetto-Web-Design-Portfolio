@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<!--Indica la lingua testuale che è l'italiano-->
-<html lang="it">
-
+<!DOCTYPE html><!--Indica che è realizzato in HTML5-->
+<html lang="it"><!--Indica la lingua testuale che è l'italiano-->
 <head>
 	<!--Indica il file .css esterno a cui si deve collegare-->
 	<link rel="stylesheet" href="styles2.css">	
@@ -11,72 +9,68 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<!--Altre informazioni-->
 	<meta name="description" content="Portfolio Vittorio">
-  	<meta name="keywords" content="portfolio artistico 3D, 2D, graphic design">
+  <meta name="keywords" content="portfolio artistico 3D, 2D, graphic design">
  	<meta name="author" content="Vittorio Meloni">
 	<!--Nome della scheda-->
 	<title>Portfolio Vittorio</title>	
 	<!--Imposta l'icona della scheda-->
 	<link rel="icon" type="image/x-icon" href="favicon.png">	
 </head>
+  
 <body>
-	<nav class="barramenu"><!--nel css modifico l'aspetto-->
-	    <div class="logo">
-	      	<a href=""><img src="immagini/logo.png" alt="logo" height="95px"></a> 
-			<!-- modificando la larghezza si fa in automatico l'altezza e viceversa -->
-	    </div>
-		<ul class="nav">
-			<!--il tag <li> crea una lista, <ul> la imposta non ordinata, <ol> ordinata-->
-			<li class="nav-items"><a href="#chisono"><span class="link-text">Chi sono</span></a></li>
-			<li class="nav-items"><a href="#art3d"><span class="link-text">3D Art</span></a></li>
-			<li class="nav-items"><a href="#art2d"><span class="link-text">2D Art</span></a></li>
-			<li class="nav-items"><a href="#contact"><span class="link-text">Contattami</span></a></li>
-		</ul>
-	</nav>
-  	
-	<!--Creo uno spazio tra l'inizio della pagina e il testo del corpo-->
-	<div class="spacerinizio"></div>
-
-	<!--CHI SONO-->
-	<div class="grid-container2">
-		<h1 id="chisono"><align="center">Chi sono</align></h1>
-	</div>
-	<div class="grid-container">
-		<p>Qua parlo di me</p>
-		<p><img src="immagini/fotome.png" alt="ritratto" height="300px"></p>
-	</div>
-
-	<!--3D ART-->
-	<div class="grid-container2">
-		<h1 id="art3d"><align="center">3D Art</align></h1>
-	</div>
-	<div class="grid-container">
-		<p>Qua parlo di 3D</p>
-		<img src="immagini/lego3d.png" alt="3d lego" height="300px">
-	</div>
-
-	<!--2D ART-->
-	<div class="grid-container2">
-		<h1 id="art2d"><align="center">2D Art</align></h1>
-	</div>
-	<div class="grid-container">
-		<p>Qua parlo di 2D</p>
-		<img src="immagini/etichetta.png" alt="2d etichetta" height="300px">
-	</div>
-
-	<!--CONTATTI-->
-	<div class="grid-container2">
-		<h1 id="contact"><align="center">Contattami</align></h1>
-	</div>
-	<div class="grid-container2">
-		<p>
-			<a href="miaemail@gmail.com">Inviami una e-mail</a><br>
-			<a href="https://www.artstation.com/vittoriomeloni">Guarda la mia pagina Artstation</a><br>
-			<a href="https://www.instagram.com/meloni_vitto/">Visita il mio profilo Instagram</a><br>
-			<a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg">Guarda i miei video su Youtube</a><br>
-			<a href=""><img src="immagini/logo.png" alt="logo" width="200px"></a>
-		</p>
-	</div>
-    
+  
+  <header>
+    <!--Decidere se serve, altrimenti non lo metto-->
+  </header>
+  
+  <nav>
+    <ul>
+      <li>
+        <div class="logo">
+          <a href=""><img src="https://via.placeholder.com/70x95" alt="logo" height="95px"></a>
+        </div>
+      </li>
+      <li><a href="#chisono">Chi sono</a></li>
+			<li><a href="#art3d">3D Art</a></li>
+			<li><a href="#art2d">2D Art</a></li>
+			<li><a href="#contact">Contattami</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <!--CHI SONO-->
+    <article>
+      <h1 id="chisono">Chi sono</h1>
+      <p>
+        Qua parlo di me
+      </p>
+      <p><img src="https://via.placeholder.com/200x300" alt="ritratto" height="300px"></p>
+    </article>
+    <!--3D ART-->
+    <article>
+      <h1 id="art3d">3D Art</h1>
+      <p>
+        Qua parlo di 3D
+      </p>
+      <p><img src="https://via.placeholder.com/200x300" alt="3d lego" height="300px"></p>
+    </article>
+    <!--2D ART-->
+    <article>
+      <h1 id="art2d">2D Art</h1>
+      <p>
+        Qua parlo di 2D
+      </p>
+      <p><img src="https://via.placeholder.com/200x300" alt="2d etichetta" height="300px"></p>
+    </article>
+    <!--CONTATTI-->
+    <article>
+      <h1 id="contact">Contattami</h1>
+      <p><a href="miaemail@gmail.com">Scrivimi una e-mail</a></p>
+      <p><a href="https://www.artstation.com/vittoriomeloni">Guarda i miei lavori su Artstation</a></p>
+      <p><a href="https://www.instagram.com/meloni_vitto/">Visita il mio profilo Instagram</a></p>
+      <p><a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg">Guarda i miei video su Youtube</a></p>
+      <p><img src="https://via.placeholder.com/200x300" alt="3d lego" width="200px"></p>
+    </article>
 
 </body>
 </html>
