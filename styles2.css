@@ -1,6 +1,9 @@
 article{
   margin-left: 110px;
   background-color: #0C4270;/*colore sfondo riquadri*/
+  /*dimensioni*/
+  width: 500px;
+  height: 500px;
 }
 
 ul {
