@@ -23,7 +23,7 @@ ul {
   li a {
     display: block;
     color: white; /*colore bookmark*/
-    text-align: left;
+    text-align: center;
     padding: 0px 0px;
     text-decoration: none;
   }
