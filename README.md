@@ -1,9 +1,9 @@
 # Sito Web Portfolio di Vittorio Meloni
-ACME Novara: Anno Accademico 2023-2024
-Corso: WebDesign
-Studente: Vittorio Meloni
-Matricola: 987
-Docente: Matteo Baccan
+- ACME Novara: Anno Accademico 2023-2024
+- Corso: WebDesign
+- Studente: Vittorio Meloni
+- Matricola: 987
+- Docente: Matteo Baccan
 
 # Scopo del progetto
 Lo scopo di questo progetto è realizzare un sito web mono-pagina responsive realizzato in HTML5 e CSS.
@@ -13,6 +13,8 @@ Il repository è pubblicato a questo indirizzo pubblico: https://vittorio-portfo
 - github.com    --> piattaforma usata per mantenere i file necessari
 - codepen.io    --> piattaforma usata per testare in tempo reale le modifiche
 - netlify.com   --> piattaforma usata per hostare il sito web realizzato
+- codespace     --> piattaforma web che simula Visual Studio Code
+- notepad++     --> programma per scrivere codice offline, semplice, veloce e leggero
 
 # Caratteristiche
 - menu disposto in una barra orizzontale
