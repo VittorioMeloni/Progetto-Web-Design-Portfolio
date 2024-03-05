@@ -1,95 +1,69 @@
-<!DOCTYPE html><!--Indica che è realizzato in HTML5-->
-<html lang="it"><!--Indica la lingua testuale che è l'italiano-->
+<!DOCTYPE html> 	<!--Indica che è realizzato in HTML5-->
+<html lang="it"> 	<!--Indica la lingua testuale che è l'italiano-->
 <head>
-	<!--Indica il file .css esterno a cui si deve collegare-->
-	<link rel="stylesheet" href="styles2.css">	
 	<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
-	<meta charset="UTF-8">	
+	<meta charset="UTF-8">
 	<!--Impostazioni per la visualizzazione responsive-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Altre informazioni-->
 	<meta name="description" content="Portfolio Vittorio">
-  <meta name="keywords" content="portfolio artistico 3D, 2D, graphic design">
- 	<meta name="author" content="Vittorio Meloni">
+	<meta name="keywords" content="portfolio artistico 3D, 2D, graphic design">
+	<meta name="author" content="Vittorio Meloni">
 	<!--Nome della scheda-->
 	<title>Portfolio Vittorio</title>	
 	<!--Imposta l'icona della scheda-->
-	<link rel="icon" type="image/x-icon" href="favicon.png">	
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<!--Collega il file CSS esterno-->
+	<link rel="stylesheet" href="style.css">
 </head>
-  
 <body>
-  
-  <header>
-    <!--Decidere se serve, altrimenti non lo metto-->
-  </header>
-  
-  <nav>
-    <ul>
-      <li>
-        <div class="logo">
-          <a href=""><img src="immagini/logo.png" alt="logo" height="95px"></a>
-        </div>
-      </li>
-      <div>
-        <li><a href="#chisono">Chi sono</a></li>
-        <li><a href="#art3d">3D Art</a></li>
-        <li><a href="#art2d">2D Art</a></li>
-        <li><a href="#video">Video</a></li>
-        <li><a href="#contact">Contattami</a></li>
-      </div>
-    </ul>
-  </nav>
-
-  <main>
-    <!--CHI SONO-->
-    <article>
-      <h1 id="chisono">Chi sono</h1>
-      <p>
-        Qua parlo di me
-      </p>
-      <p><img src="immagini/fotome.png" alt="ritratto" height="300px"></p>
-    </article>
-    <!--3D ART-->
-    <article>
-      <h1 id="art3d">3D Art</h1>
-      <p>
-        Qua parlo di 3D
-      </p>
-      <p><img src="immagini/lego3d.png" alt="3d lego" height="300px"></p>
-    </article>
-    <!--2D ART-->
-    <article>
-      <h1 id="art2d">2D Art</h1>
-      <p>
-        Qua parlo di 2D
-      </p>
-      <p><img src="immagini/etichetta.png" alt="2d etichetta" height="300px"></p>
-    </article>
-    <!--VIDEO-->
-    <article>
-      <h1 id="video">Video</h1>
-      <p>
-        Qua parlo di video
-      </p>
-      <iframe width="460" height="315" 
-              src="https://www.youtube.com/embed/ZFz6y_exxeE?si=-JhHCPAC2e61vfJG&amp;controls=0" 
-              title="YouTube video player" frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen>
-      </iframe>
-    </article>
-    <!--CONTATTI-->
-    <article>
-      <h1 id="contact">Contattami</h1>
-      <p><a href="miaemail@gmail.com">Scrivimi una e-mail</a></p>
-      <p><a href="https://www.artstation.com/vittoriomeloni">Guarda i miei lavori su Artstation</a></p>
-      <p><a href="https://www.instagram.com/meloni_vitto/">Visita il mio profilo Instagram</a></p>
-      <p><a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg">Guarda i miei video su Youtube</a></p>
-      <p><img src="immagini/logo.png" alt="3d lego" width="200px"></p>
-    </article>
-
-    <footer> 
-      <!--represents a group of end content for a page-->
-    </footer> 
+	<!--Menu laterale-->
+	<div class="container">
+		<aside class="sidebar">
+			<ul>
+				<!--Sezioni-->
+				<li><a href=""><img src="immagini/logo.png" alt="logo" width="100px"></a></li>
+				<li><a href="#chisono"><img src="icone/user.svg" alt="logo" width="25px"> Chi sono</a></li>
+				<li><a href="#art3d"><img src="icone/box.svg" alt="logo" width="25px"> 3D Art</a></li>
+				<li><a href="#art2d"><img src="icone/image.svg" alt="logo" width="25px"> 2D Art</a></li>
+				<li><a href="#video"><img src="icone/film.svg" alt="logo" width="25px"> Video</a></li>
+				<li><a href="#contact"><img src="icone/message-square.svg" alt="logo" width="25px"> Contattami</a></li>
+			</ul>
+		</aside>
+	</div>
+	<!--CORPO-->
+	<div id="content">
+		<!--CHI SONO-->
+		<h1 id="chisono">Chi sono</h1>
+		<p>
+			bla <br> bla <br> bla <br> bla <br> bla
+		</p>
+		<hr>
+		<!--3D-->
+		<h1 id="art3d">3D</h1>
+		<p>
+			bla <br> bla <br> bla <br> bla <br> bla
+		</p>
+		<hr>
+		<!--2D-->
+		<h1 id="art2d">2D</h1>
+		<p>
+			bla <br> bla <br> bla <br> bla <br> bla
+		</p>
+		<hr>
+		<!--VIDEO-->
+		<h1 id="video">Video</h1>
+		<p>
+			bla <br> bla <br> bla <br> bla <br> bla
+		</p>
+		<hr>
+		<!--CONTATTI-->
+		<h1 id="contact">Contattami</h1>
+		<p><a href="miaemail@gmail.com">Scrivimi una e-mail</a></p>
+		<p><a href="https://www.artstation.com/vittoriomeloni">Guarda i miei lavori su Artstation</a></p>
+		<p><a href="https://www.instagram.com/meloni_vitto/">Visita il mio profilo Instagram</a></p>
+		<p><a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg">Guarda i miei video su Youtube</a></p>
+		<p><img src="immagini/logo.png" alt="3d lego" width="200px"></p>
+	</div>
 </body>
 </html>
