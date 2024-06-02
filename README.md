@@ -17,15 +17,18 @@ Il repository è pubblicato a questo indirizzo pubblico: https://vittorio-portfo
 - notepad++     --> programma per scrivere codice offline, semplice, veloce e leggero
 
 # Caratteristiche
-- menu disposto verticalmente in posizione fissa
+- menu responsive
 - bookmark per una navigazione rapida
 - scrollbars nascosti, mantenendo la funzionalità di scorrimento
-- sito responsive per adattarsi a varie dimensioni di schermi diversi
+- layout responsive per adattarsi a varie dimensioni di schermi diversi
+- area home
 - area biografica
 - area portfolio opere 2D
 - area portfolio opere 3D
 - area portfolio opere video
 - area contatti
+- inserimento di elementi 3D
+- inserimento di animazioni ed effetti tramite CSS e Javascript
 
 # Corso di riferimento
 https://github.com/matteobaccan/CorsoWebDesign
