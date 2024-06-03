@@ -83,6 +83,7 @@ body{
 	justify-content: center;
 	line-height: 1;
 	/*border: 1px solid red;*/
+	margin-bottom: 20px;
 }
 .titolo-sezione{
 	height: 40px;
@@ -124,6 +125,15 @@ body{
 	align-content: center;
 	justify-content: center;
 	line-height: 1;
+}
+.testo-sezione{
+	height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+	padding-top: 60px;
+	text-align: center;	
 }
 
 /*HOME*/
@@ -383,6 +393,70 @@ p{
     margin-left: auto;
     margin-right: auto;
 	margin-bottom: 20px;/*Distanza sotto lo slider dal titolo successivo*/
+}
+
+/*FORM*/
+form{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input, textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(30px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	
+    color: white;
+    font-size: 16px;
+}
+textarea{
+    height: 150px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0055a5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form-icone{
+    margin-top: 20px;
+    display: flex;
+	justify-content: flex-end;
+}
+.form-icone a{
+    width: 60px;
+    height: 60px;
+	color: #FBBA05;
+}
+.form-icone a:hover{
+    color: #DE3B14;
+}
+.form-sinistra,
+.form-destra{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.form-sottocolonna{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
 }
 
 /*Animazione sfondo*/
