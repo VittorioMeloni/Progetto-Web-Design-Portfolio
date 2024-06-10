@@ -400,55 +400,33 @@ form{
 	display: flex;
     flex-direction: row;
     align-items: center;
-}
-input, textarea{
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    
-	backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(30px);
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-	
-    color: white;
-    font-size: 16px;
-}
-textarea{
-    height: 150px;
-}
-button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #0055a5;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.form-icone{
-    margin-top: 20px;
-    display: flex;
-	justify-content: flex-end;
-}
-.form-icone a{
-    width: 60px;
-    height: 60px;
-	color: #FBBA05;
-}
-.form-icone a:hover{
-    color: #DE3B14;
+	border: 1px solid white;
 }
 .form-sinistra,
 .form-destra{
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	
 	flex: 1;
+	border: 1px solid red;
+	
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-content: center;
+}
+.form-sinistra li{
+	list-style: none;
+}
+.form-sinistra li::last-child{
+	padding-right: 75px;
+}
+.logo-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .form-sottocolonna{
 	flex: 1;
@@ -457,7 +435,70 @@ button{
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
+	border: 1px solid green;
 }
+
+
+
+
+input, textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #FBBA05;
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+    font-size: 16px;
+	background-color: #00578A;
+	border-radius: 5px;
+}
+input:focus, textarea:focus{
+    border: 3px solid #DE3B14;
+	outline: none;
+}
+input::placeholder, textarea::placeholder {
+    color: white; /* Colore del testo del placeholder */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+textarea{
+    height: 150px;
+}
+button{
+    padding: 10px 20px;/*distanza bordo-contenuto del bottone*/
+    border: 3px solid #FBBA05;
+    border-radius: 5px;
+    background-color: #00578A;
+    color: #FBBA05;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;/*Spazio tra la scritta e l'icona*/
+}
+button:hover{
+	color: #DE3B14;
+	border: 3px solid #DE3B14;
+}
+.form-icone{
+	margin: 0;
+	left: 0;
+    margin-top: 20px;
+    display: flex;
+	justify-content: flex-end;
+}
+.form-icone a{
+    width: 60px;
+    height: 60px;
+	color: #FBBA05;
+	font-size: 1.5rem;
+}
+.form-icone a:hover{
+    color: #DE3B14;
+}
+
+
 
 /*Animazione sfondo*/
 .light {
