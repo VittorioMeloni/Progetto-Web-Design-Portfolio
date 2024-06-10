@@ -1,0 +1,298 @@
+<!DOCTYPE html> 	<!--Indica che è realizzato in HTML5-->
+<html lang="it"> 	<!--Indica la lingua testuale che è l'italiano-->
+	<head>
+		<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
+		<meta charset="UTF-8">
+		<!--Impostazioni per la visualizzazione responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Altre informazioni-->
+		<meta name="description" content="Portfolio Vittorio">
+		<meta name="keywords" content="portfolio artistico 3D, 2D, video, graphic design, 3d modeler">
+		<meta name="author" content="Vittorio Meloni">
+		<!--Nome della scheda-->
+		<title>Portfolio Vittorio</title>	
+		<!--Imposta l'icona della scheda-->
+		<link rel="icon" type="image/x-icon" href="favicon.png">
+		<!--Collega il file CSS esterno-->
+		<link rel="stylesheet" href="style.css">
+		<!--Importazione icone-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<!--Sfondo-->
+		<div class='light x1'></div>
+		<div class='light x2'></div>
+		<div class='light x3'></div>
+		<div class='light x4'></div>
+		<div class='light x5'></div>
+		<div class='light x6'></div>
+		<div class='light x7'></div>
+		<div class='light x8'></div>
+		<div class='light x9'></div>
+		
+		<!--Menu schermi grandi-->
+			<div class="navbar">
+				<!--Logo a sinistra-->
+				<div class="logo">
+					<a href=""><img src="immagini/logo_no_sfondo.png" alt="logo" height="60"></a>
+				</div>
+				<!--Bookmark al centro-->
+				<div class="link">
+					<ul class="link">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#graphic">2D</a></li>
+						<li><a href="#solid">3D</a></li>
+						<li><a href="#video">Video</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<!--Icone a destra-->
+				<div class="icone">
+					<ul class="icone">
+						<li><a href="https://www.instagram.com/meloni_vitto/"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg"><i class="fa-brands fa-youtube"></i></a></li>
+						<li><a href="https://www.artstation.com/vittoriomeloni"><i class="fa-brands fa-artstation"></i></a></li>
+					</ul>
+				</div>
+				<!--Bottone menu-->
+				<div class="toggle_btn">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</div>
+			<!--Menu schermi piccoli-->
+			<div class="dropdown">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#graphic">2D</a></li>
+				<li><a href="#solid">3D</a></li>
+				<li><a href="#video">Video</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<div class="icone_dropdown">
+					<li><a href="https://www.instagram.com/meloni_vitto/"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="https://www.artstation.com/vittoriomeloni"><i class="fa-brands fa-artstation"></i></a></li>
+				</div>
+			</div>
+		 
+		<!--Contenuto non scrollabile-->
+		<div class="content-container">
+			<!--Contenuto scrollabile-->
+			<div class="content">
+				<!--Home-->
+				<div class="section" id="home">
+					<div class="titolo-sezione">
+						<h2>Home</h2>
+					</div>
+					<div class="larga-sezione">
+						<div class="meta-sinistra-sezione">
+							<span class="topline">Ciao</span>
+							<h1>Io sono un <br><span class="multiText"></span></h1>
+						</div>
+						<div class="meta-centro-sezione">
+							<script type="module" src="https://unpkg.com/@splinetool/viewer@1.4.7/build/spline-viewer.js"></script>
+							<spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/jg0aDDmyPwR-y5bj/scene.splinecode"></spline-viewer>
+						</div>
+					</div>
+				</div>
+				<!--About-->
+				<div class="section" id="about">
+					<div class="titolo-sezione">
+						<h2>About</h2>
+					</div>
+					<div class="larga-sezione">
+						<div class="meta-centro-sezione">
+							<img src="immagini/fotome.png" alt="Foto Vittorio" height="500">
+						</div>
+						<div class="meta-sinistra-sezione">
+							<p>
+								Ho studiato Informatica e Telecomunicazioni alle superiori.
+							<br><br>
+								Successivamente ho frequentato all’Accademia di Belle Arti 
+								il corso di Graphic Design e Art Direction.
+							<br><br>
+								Ma la mia passione principale è la modellazione 3D tramite Blender.
+							<br><br>
+								In questo sito potete vedere alcuni dei miei lavori.<br>
+								Buona visione!
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--2D-->
+				<div class="section" id="graphic">
+					<div class="titolo-sezione">
+						<h2>2D</h2>
+					</div>
+					<div class="larga-sezione">
+						<div class="meta-sinistra-sezione">
+							<p>
+								Benvenuto nella mia galleria.
+								<br><br>
+								Questi sono dei miei lavori nell'ambito della grafica.
+								<br><br>
+								Ci sono principalmente poster, adesivi e dell'etichette che ho fatto durante l'Accademia.
+								<br><br>
+								Quello qui vicino è il mio ritratto come calligramma, mentre sotto puoi scorrere alcuni lavori.
+							</p>
+						</div>
+						<div class="meta-centro-sezione">
+							<img src="immagini/calligramma.png" alt="Foto Vittorio" height="500">
+						</div>
+					</div>
+					<div class="larga-sezione">	
+						<!-- Slider main container -->
+						<div class="swiper mySwiper">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide"><img src="immagini/2d/sovrapposizione.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/etichetta.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/haloposter.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/ia.jpg" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/stickergundam.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/vino-fronte.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/zplusposter.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/beermuda.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/2d/starwars.png" loading="lazy"></div>
+							</div>
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>
+						<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+					</div>
+				</div>
+				<!--3D-->
+				<div class="section" id="solid">
+					<div class="titolo-sezione">
+						<h2>3D</h2>
+					</div>
+					<div class="larga-sezione">
+						<div class="meta-centro-sezione">
+							<div class="sketchfab-embed-wrapper"> <iframe title="LEGO Robot MK-01 BLUE" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/9d43b3fbc3364a45b4dbce6b25c9f99a/embed?annotations_visible=1"> </iframe> </div>
+						</div>
+						<div class="meta-sinistra-sezione">
+							<p>
+								Possiedo anche una forte passione per il mondo del 3D.
+								<br>
+								Soprattutto legata alla fantascienza, robot e spazio.
+								<br><br>
+								Questo per esempio è un modello 3D che ho realizzato
+								di un Lego che ho inventato io.
+								<br><br>
+								Sotto puoi vedere i render qualche di altro progetto.
+							</p>
+						</div>
+					</div>
+					<div class="larga-sezione">	
+						<!-- Slider main container -->
+						<div class="swiper mySwiper">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide"><img src="immagini/3d/3d-1.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-2.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-3.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-4.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-5.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-6.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/3d-7.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/david.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/lowpoly.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/render.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/tarocchi1.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/tarocchi2.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/tarocchi3.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/zplus.png" loading="lazy"></div>
+								<div class="swiper-slide"><img src="immagini/3d/albero.png" loading="lazy"></div>
+							</div>
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>
+						<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+					</div>
+				</div>
+				<!--Video-->
+				<div class="section" id="video">
+					<div class="titolo-sezione">
+						<h2>Video</h2>
+					</div>
+					<div class="larga-sezione">
+						<div class="meta-sinistra-sezione">
+							<p>
+								Ho anche un canale YouTube dove carico qualche animazione che realizzo con Blender.
+							<br><br>
+								Ci vuole un sacco di tempo per realizzarli ma si prova una sensazione bellissima quando finalmente il video è completo.
+							<br><br>
+								Se siete curiosi cliccate sulla macchina da presa qui vicino.
+							<br><br>
+								Buona visione!
+							</p>
+						</div>
+						<div class="meta-centro-sezione">
+							<script type="module" src="https://unpkg.com/@splinetool/viewer@1.4.7/build/spline-viewer.js"></script>
+							<spline-viewer loading-anim-type="spinner-big-light" url="https://prod.spline.design/nTmyiiNPmHEetZaY/scene.splinecode"></spline-viewer>
+						</div>
+					</div>
+				</div>
+				<!--Contatti-->
+				<div class="section" id="contact">
+					<div class="titolo-sezione">
+						<h2>Contact</h2>
+					</div>
+					<div class="testo-sezione">
+						<p>
+							Ti piacciono i miei lavori e vuoi mandarmi un messaggio?
+							<br>
+							Compila i campi qui sotto e ti risponderò il prima possibile!
+						</p>
+					</div>
+					<div class="larga-sezione">
+						<form action="your-form-handler-url" method="post">
+							<div class="form-sinistra">
+								<ul>
+									<li><input type="text" name="name" placeholder="Il tuo nome" required></li>
+									<li><input type="email" name="email" placeholder="La tua email" required></li>
+									<li class="logo-form"><img src="immagini/logo_no_sfondo.png" alt="logo" height="150"></li>
+								</ul>
+							</div>
+							<div class="form-destra">
+								<div class="form-sottocolonna">
+									<textarea name="message" placeholder="Il tuo messaggio" required></textarea>
+								</div>
+								<div class="form-sottocolonna">
+									<button type="submit">Invia<i class="fa-solid fa-paper-plane"></i></button>
+									<div class="form-icone">
+										<a href="https://www.instagram.com/meloni_vitto/"><i class="fa-brands fa-instagram"></i></a>
+										<a href="https://www.youtube.com/channel/UC6x2Bar8iEq4VT8_qYm4wZg"><i class="fa-brands fa-youtube"></i></a>
+										<a href="https://www.artstation.com/vittoriomeloni"><i class="fa-brands fa-artstation"></i></a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Animazione testo Home-->
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typingEffect = new Typed(".multiText",{
+				strings:["Graphic Designer","Modellatore 3D"],
+				loop: true,
+				typeSpeed: 100,
+				backSpeed: 80,
+				backDelay: 1500
+			})
+		</script>
+		
+		<!-- Includi il file JavaScript esterno-->
+		<script src="script.js"></script>
+	</body>
+</html>
