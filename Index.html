@@ -255,12 +255,16 @@
 					<div class="larga-sezione">
 						<form action="your-form-handler-url" method="post">
 							<div class="form-sinistra">
-								<input type="text" name="name" placeholder="Il tuo nome" required>
-								<input type="email" name="email" placeholder="La tua email" required>
-								<img src="immagini/logo_no_sfondo.png" alt="logo" height="60">
+								<ul>
+									<li><input type="text" name="name" placeholder="Il tuo nome" required></li>
+									<li><input type="email" name="email" placeholder="La tua email" required></li>
+									<li class="logo-form"><img src="immagini/logo_no_sfondo.png" alt="logo" height="150"></li>
+								</ul>
 							</div>
 							<div class="form-destra">
-								<textarea name="message" placeholder="Il tuo messaggio" required></textarea>
+								<div class="form-sottocolonna">
+									<textarea name="message" placeholder="Il tuo messaggio" required></textarea>
+								</div>
 								<div class="form-sottocolonna">
 									<button type="submit">Invia<i class="fa-solid fa-paper-plane"></i></button>
 									<div class="form-icone">
