@@ -48,7 +48,8 @@ Esito disponibile a questo link:
 https://pagespeed.web.dev/analysis/https-vittorio-portfolio-netlify-app/k8m9uaqkze?form_factor=mobile
 
 # Test seo
-...
+Esito disponibile a questo link:
+https://www.seoptimer.com/vittorio-portfolio.netlify.app#backlinks47240699
 
 # Test responsive
 ...
