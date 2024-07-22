@@ -56,4 +56,6 @@ Esito disponibile a questo link:
 https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fvittorio-portfolio.netlify.app%2F&width=1400&height=700
 
 # Test validatore w3c
-...
+Esito disponibile a questo link:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2803d39e-fdc9-42a7-90b7-2b9c77dd27b8/deploy-status)](https://app.netlify.com/sites/vittorio-portfolio/deploys)
