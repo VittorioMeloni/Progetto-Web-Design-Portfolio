@@ -49,10 +49,11 @@ https://pagespeed.web.dev/analysis/https-vittorio-portfolio-netlify-app/k8m9uaqk
 
 # Test seo
 Esito disponibile a questo link:
-https://www.seoptimer.com/vittorio-portfolio.netlify.app#backlinks47240699
+[https://www.seoptimer.com/vittorio-portfolio.netlify.app#backlinks47240699](https://www.seoptimer.com/vittorio-portfolio.netlify.app)
 
 # Test responsive
-...
+Esito disponibile a questo link:
+https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fvittorio-portfolio.netlify.app%2F&width=1400&height=700
 
 # Test validatore w3c
 ...
