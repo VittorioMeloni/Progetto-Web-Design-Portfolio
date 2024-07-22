@@ -40,7 +40,12 @@ https://github.com/matteobaccan/CorsoWebDesign
 Non è stata implementata
 
 # Test GTmetrix
-Esito disponibile a questo link: https://gtmetrix.com/reports/vittorio-portfolio.netlify.app/Rm1XrtVo/
+Esito disponibile a questo link: 
+https://gtmetrix.com/reports/vittorio-portfolio.netlify.app/Rm1XrtVo/
+
+# Test PageSpeed Insights
+Esito disponibile a questo link:
+https://pagespeed.web.dev/analysis/https-vittorio-portfolio-netlify-app/k8m9uaqkze?form_factor=mobile
 
 # Test seo
 ...
