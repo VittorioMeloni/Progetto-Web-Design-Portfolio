@@ -36,9 +36,6 @@ Il repository è pubblicato a questo indirizzo pubblico: https://vittorio-portfo
 # Corso di riferimento
 https://github.com/matteobaccan/CorsoWebDesign
 
-# Automazione
-Non è stata implementata
-
 # Test GTmetrix
 Esito disponibile a questo link: 
 https://gtmetrix.com/reports/vittorio-portfolio.netlify.app/Rm1XrtVo/
